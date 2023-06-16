@@ -13,3 +13,42 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  background-color: rgb(253, 229, 149);
+}
+
+.heading-todo {
+  text-align: center;
+  font-size: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list {
+  display: flex;
+}
+
+.list-todo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+}
+.btn {
+  margin: 10px;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 10px;
+}
