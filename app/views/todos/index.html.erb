@@ -7,8 +7,8 @@
   <% @todos.each do |todo| %>
     <%= render todo %>
     <p>
-      <%= link_to "Show this todo", todo %>
-    </p>
+      <button class='btn btn-show'><%= link_to "Show todo", todo %>
+    </p></button>
   <% end %>
 </div>
 

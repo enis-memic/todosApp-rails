@@ -36,6 +36,19 @@ a {
 
 .list {
   display: flex;
+  margin: 10px;
+}
+
+#todos {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgba(247, 233, 187, 0.719);
+  padding: 5px;
 }
 
 .list-todo {
@@ -45,10 +58,53 @@ a {
   justify-content: center;
   margin: 2px;
 }
+
+.todo-create {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.create-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-form {
+  border: 1px solid black;
+  padding: 30px;
+}
+
+.form-name {
+  font-size: 20px;
+  text-align: center;
+}
+.form-input {
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+.div-create {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .btn {
   margin: 10px;
   border: 1px solid black;
   text-decoration: none;
   padding: 1rem;
   border-radius: 10px;
+}
+.btn-show {
+  padding: 5px;
+}
+
+.btn-back {
+  padding: 5px;
+}
+
+.btn-create {
+  padding: 10px;
 }
