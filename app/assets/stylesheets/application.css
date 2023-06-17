@@ -108,3 +108,14 @@ a {
 .btn-create {
   padding: 10px;
 }
+
+.btn-new {
+  color: greenyellow;
+  border: 1px solid greenyellow;
+}
+
+.btn-destroy {
+  padding: 5px;
+  color: red;
+  border: 1px solid red;
+}
