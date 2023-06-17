@@ -9,7 +9,10 @@
     <p>
       <button class='btn btn-show'><%= link_to "Show todo", todo %>
     </p></button>
+    <%= button_to "Destroy this todo", todo, method: :delete %>
   <% end %>
+
+  
 </div>
 
 <div>
